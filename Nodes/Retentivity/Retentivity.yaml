@@ -1,60 +1,94 @@
 Name: Retentivity
+Id: g=be0b5d633f3749ebbd1afc473d316fe3
 Type: RetentivityCategoryFolder
 Children:
 - Name: SecurityRetentivityStorage
+  Id: g=17fa2d77556a83067091ad4476c14ea1
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=8dded894b062b9d47990614a34e60b9e
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=a60cba01bb85b05d53acc94f40f57e7f
       Type: NodePointer
       DataType: NodeId
       Value: {"IdType":2,"Id":"69b63ec1680bb66226168ed8c16521a0","Namespace":7}
       Children:
       - Name: Kind
+        Id: g=5bc8614377c22f64b8cd66c1a8117c73
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
+        Id: g=ca37f2a2cba951f79709f6dd42572330
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=da22043111f9d6b6cbdb5c3f5bc57c60
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
     Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
+    Id: g=eed277cc6dc4ff95a7b61c2bd488dfd3
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty
     Value: true
 - Name: AlarmsRetentivityStorage
+  Id: g=b45e30fb3e96515f48e242571e7a79c4
   Type: RetentivityStorage
   Children:
   - Name: Nodes
+    Id: g=2f3e2035df34245d2c2506c3692d593c
     Type: BaseObjectType
     Children:
     - Name: Node1
+      Id: g=5803de449e08836018c57b410fab4fbc
       Type: NodePointer
       DataType: NodeId
       Value: {"IdType":2,"Id":"3293e7cd8de0bb06cc725e017a984470","Namespace":7}
       Children:
       - Name: Kind
+        Id: g=96a8e872fd1320c286d23a582d7df440
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: NodeClass
+        Id: g=86ab3cbe943c03372813310240877bdd
         Type: PropertyType
         DataType: NodePointerNodeClass
         Value: 2
   - Name: WriteDelay
+    Id: g=bceb791568b86f16d41788e5dcd214e8
     Type: BaseDataVariableType
     DataType: Duration
     ReferenceType: HasProperty
     Value: "0:00:00:0.0000000"
   - Name: DeltaObserverEnabled
+    Id: g=a7730056e3218c34c265e7c96653f10d
+    Type: BaseDataVariableType
+    DataType: Boolean
+    ReferenceType: HasProperty
+    Value: true
+- Name: RetentivityStorage1
+  Id: g=7a6c285d6ea6bdfc7f00f54e14d1521e
+  Type: RetentivityStorage
+  Children:
+  - Name: Nodes
+    Id: g=83b17fb91a824e6ca283a66ed10ae56b
+    Type: BaseObjectType
+  - Name: WriteDelay
+    Id: g=5a92760b9925e5dc776aa7cb01f19c66
+    Type: BaseDataVariableType
+    DataType: Duration
+    ReferenceType: HasProperty
+    Value: "0:00:00:0.0000000"
+  - Name: DeltaObserverEnabled
+    Id: g=4b25890f6dd17368cc3020e1070fad2d
     Type: BaseDataVariableType
     DataType: Boolean
     ReferenceType: HasProperty

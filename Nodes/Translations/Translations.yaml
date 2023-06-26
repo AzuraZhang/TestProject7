@@ -1,7 +1,16 @@
 Name: Translations
+Id: g=547e1a62d1e8989dc76f8c02b9f5fa2e
 Type: TranslationsCategoryFolder
 Children:
+- Name: LocalizationDictionary2
+  Id: g=e0425bbb42dfb6c5a451adcaef859d25
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: 2
+  ArrayDimensions: [0,0]
+  Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
 - Name: LocalizationDictionary1
+  Id: g=b279e5e1bd9cdfd33c239a382f3c10e4
   Type: LocalizationDictionary
   DataType: String
   ValueRank: OneOrMoreDimensions
